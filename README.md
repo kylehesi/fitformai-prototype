@@ -4,10 +4,7 @@
 
 **AI-powered fitness coaching app** — exercise form analysis from video, AI coach chat, and progress (before/after) insights.
 
-[AI Studio App](https://ai.studio/apps/drive/1MpzOZd_23esV_wZxXREW80Na5GDn1RUv) •
-[Tech Stack](#tech-stack) •
-[Features](#features) •
-[Run Locally](#run-locally)
+[View in Google AI Studio](https://ai.studio/apps/drive/1MpzOZd_23esV_wZxXREW80Na5GDn1RUv)
 
 </div>
 
@@ -15,14 +12,14 @@
 
 ## Overview
 
-FitFormAI is an academic prototype of a fitness application built with Google AI Studio.
-It provides core workout planning features plus AI-driven capabilities:
+FitFormAI is an **academic prototype** of a fitness application built with **Google AI Studio (Gemini)** and a **React (Vite + TypeScript)** frontend.
 
+It combines classic workout planning with AI-driven features:
 - **Form Analysis:** Upload a workout video to receive form scoring and coaching feedback.
 - **AI Coach Chatbot:** Ask for training, nutrition, and personalized program recommendations.
 - **Progress Insights:** Upload before/after photos and get AI-generated progress analysis.
 
-> ⚠️ This is a **prototype** (not production-ready). UI, prompts, and outputs may change frequently.
+> ⚠️ This is a prototype (not production-ready). UI, prompts, and outputs may change frequently.
 
 ---
 
@@ -53,26 +50,31 @@ It provides core workout planning features plus AI-driven capabilities:
 
 ## Tech Stack
 
-- **Google AI Studio** (Gemini) — prompts & AI flows
+- **Google AI Studio (Gemini)** — prompts & AI flows
 - **React + Vite + TypeScript** — frontend
-- (Optional) **Firebase / Storage** — if you later add auth/media storage
+- **Node.js** — tooling/runtime
 
 ---
 
 ## Project Status
 
-- ✅ Prototype working
-- 🔁 Localization (TR/EN) is in progress  
+- ✅ Prototype working  
+- 🌍 Localization (TR/EN) in progress  
   - Some screens may still show English outputs if AI language enforcement is not applied.
 
 ---
 
-## Run Locally
+## Getting Started
+
+Follow the steps below to run the project locally.
 
 ### Prerequisites
 - Node.js (LTS recommended)
+- npm
 
-### Setup
-1. Install dependencies:
+### Installation & Run
+
+1. Clone the repository:
    ```bash
-   npm install
+   git clone https://github.com/kylehesi/fitformai-prototype.git
+   cd fitformai-prototype
